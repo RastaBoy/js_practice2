@@ -63,3 +63,20 @@ Array.prototype.multBy = function(number) {
 }
 
 console.log(multiplyBy(array, 4));
+
+
+// Async get started
+console.log("Start!")
+window.setTimeout(function() {
+    console.log('Inside timeout after 5 seconds!');
+}, 5000)
+
+function timeOut2sec() {
+    console.log("Time Out 2 Sec func");
+}
+
+window.setTimeout(timeOut2sec, 2000)
+
+console.log("End!")
+
+
